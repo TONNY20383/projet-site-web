@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+}
+/* style universel */
+*{
+    font-family: 'poppins' , sans-serif;
+}
+/* style apporté à tous les éléments de la page portant ses balises  */
+h1{
+    font-size: 38px;
+}
+header{
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    padding-bottom: 50px;
+}
+a{
+    font-size: 18px;
+    text-decoration: none;
+}
+p{
+    font-size: 11px;
+    color: #9CA5AE;
+}
+/* style appliqué à la div logo */
+#logo{
+    display: flex;
+    flex-direction: row;
+    width: 220px;
+}
+#logo img{
+    object-fit: contain;
+}
+#logo h1{
+    margin-top: 60px;
+}
+/* style pour la partie onglets de navigation */
+nav{
+    margin-top: 30px;
+}
+nav a {
+    color: #9CA5AE;
+    margin-right: 15px;
+}
+nav a:first-child{
+    color: #FB5607;
+}
+/* style de la partie recherche  */
+#search{
+    width: 250px;
+    height: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+    border-radius: 50px;
+    padding: 0 10px;
+    align-items: center;
+    border: 1px solid #9CA5AE;
+    margin-right: 20px;
+}
+#search img{
+    object-fit: contain;
+    height: 20px;
+    width: 20px;
+}
+input{
+    border: none;
+    width: 240px;
+    height: 25px;
+    margin-left: 50px;
+}
+button a , button{
+    background-color: #ffffff;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* style bouton orange */
+.bouton_orange{
+    width: 130px;
+    height: 40px;
+    background-color: #FB5607;
+    padding: 0 15px;
+    border-radius: 50px;
+    
+}
+.bouton_orange p{
+    color: white;
+    font-size: 18px;
+    padding-top: 6px;
+}
+#lune {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 220px;
+    align-items: center;
+    margin-top: 5px;
+}
+#lune img{
+    margin-top: 25px;
+    rotate: -35deg;
+    object-fit: contain;
+    height: 30px;
+    width: 30px;
+}
+#navigation{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+
+.story{
+    display: flex;
+    justify-content: space-between;
+    height: 150px;
+    padding: 80px;
+    background-color: #e6e9ed;
+}
+.p4{
+    font-size: 16px;
+    position: relative;
+    top: 25px;
+    color: #3A86FF;
+}
+.cont{
+    width: 60px;
+    height: 60px;
+    margin-top: 50px;
+    background-color: #99baef;
+    border-radius: 100%;
+}
+.ph{
+    width: 35%;
+}
+
+.pp{
+    width: 55%;
+    padding-top: 5%;
+}
+.leader{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 100px;
+}
+#ikn{
+    width: 400px;
+    height: 220px;
+    
+}
+.flick{
+    border-radius: 20px;
+    width: 120px; 
+    height:30px;
+    text-align: center;
+    padding: 2px;
+    margin-top: 50px;
+}
+.flick:hover{
+    background-color: #ffffff;
+}
+.po{
+    font-size:12px;
+}
+.po :hover{
+    color: #FB5607;
+}
+
+.ld{
+    width: 550px;
+    height: 339px;
+    position: relative;
+    bottom: 40px;
+}
+.choose{
+    background-color: #e6e9ed;
+    text-align: center;
+    height: 400px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 50px;
+}
+.slides{
+    display: flex;
+    justify-content: space-between;
+}
+.one, .two, .three{
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+}
+.pse1, .pse2, .pse3{
+    width: 40px;
+    height: 40px;
+    position: relative;
+    top: 10px;
+}
+.thre{
+    width: 280px;
+    margin-top: 20px;
+}
+h2{
+    font-size: 20px;
+}
+.imp{
+    width: 210px;
+    height: 210px;
+    border-radius: 10px;
+}
+.tof{
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+
+}
+.team{
+    text-align: center;
+}
+.ft{
+    position: relative;
+    bottom: 23px;
+    left: 50px;
+}
+.im1, .im2, .im3, .im4{
+    background-color: #e6e9ed;
+    border-radius: 10px;
+}
+/* footer */
+.footer{
+    width: auto;
+    height: 800px;
+    background-color: #0B2238;
+}
+/* compartiment1 */
+.compartiment1{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 55px 100px;
+}
+.compartiment1 p, .compartiment2 p{
+    color:white;
+}
+.texte{
+    font-size: 30px;
+    font-weight: bold;
+}
+.bouton{
+    display: flex;
+    flex-direction: row;
+    width: 180px;
+    height: 50px;
+    font-size: 18px;
+    color:white;
+    background-color:#FB5607 ;
+    border-radius: 54.42px;
+    padding: 30px;
+}
+.bouton:hover{
+   background-color:white;
+   color:#FB5607;
+}
+.orange{
+    color:white;
+    font-size: 1px;
+    margin-right: 10px;
+}
+.orange:hover{
+    color:#FB5607;
+}
+
+
+/* compartiment2 */
+
+.compartiment2 p{
+    font-size: 16px;
+}
+.ellipse{
+    display: flex;
+    align-items: center;
+    gap:24px;
+}
+.ellipse1{
+    width:45px;
+    height: 45px;
+    background-color: white;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    text-decoration: none;
+} 
+.compartiment2{
+    width: auto;
+    height: 300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 70px 100px;
+}
+
+.titre{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* BOUTON EMAIL */
+
+.email-container{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    padding:5px 10px;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.2);
+}
+.email-input{
+    border:none;
+    outline: none;
+    padding: 10px;
+    font-size: 16px;
+    flex-grow: 1;
+}
+.email-input::placeholder{
+    color:#ccc;
+
+}
+.send-button{
+    /* border:none; */
+    /* outline: none; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    cursor: pointer;
+}
+/* copyright */
+.copyright{
+    text-align: center;
+    margin-top: 70px;
+}  
